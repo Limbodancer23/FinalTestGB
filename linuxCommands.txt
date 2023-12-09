@@ -1,0 +1,71 @@
+88  cat > Pets.txt
+   89  cat > PackAnimalstxt
+   90  rm PackAnimalstxt
+   91  cat > PackAnimals.txt
+   92  cat Pets.txt PackAnimals.txt NewFile.txt
+   93  cat Pets.txt PackAnimals.txt > NewFile.txt
+   94  cat NewFile.txt
+   95  nano NewFile.txt
+   96  cat Pets.txt
+   97  nano Pets.txt
+   98  rm Pets.txt PackAnimals.txt NewFile.txt
+   99  ls
+  100  clear
+  101  cat > Pets.txt
+  102  cat Pets.txt
+  103  cat > PackAnimals.txt
+  104  cat Pets.txt PackAnimals.txt > NewFile.txt
+  105  cat NewFile.txt
+  106  mv NewFile.txt Human_Friends.txt
+  107  ls
+  108  cat Human_Friends.txt
+  109  mkdir PetDir
+  110  mv Human_Friends.txt /PetDir
+  111  ls
+  112  ls PetDir/
+  113  cd PetDir/
+  114  ls
+  115  ..
+  116  /..
+  117  ../
+  118  cd ..
+  119  cd..
+  120  cd ..
+  121  ls
+  122  ls /PetDir
+  123  pwd
+  124  ls /home
+  125  ls /
+  126  mv /PetDir /home/danil/Downloads/
+  127  mv /PetDir /home/danil/Downloads
+  128  cd ..
+  129  cd /PetDir
+  130  rm PetDir
+  131  ls
+  132  rm -f /PetDir
+  133  ls /
+  134  cd pwd
+  135  pwd
+  136  ls
+  137  cd danil/Downloads/
+  138  cat Pets.txt PackAnimals.txt > NewFile.txt
+  139  mv NewFile.txt Human_Friends.txt
+  140  ls
+  141  mv Human_Friends.txt PetDir/
+  142  ls
+  143  ls PetDir/
+  144  apt install mysql
+  145  apt upgrade
+  146  apt install mysql-server
+  147  mysql
+  148  dpkg nginx
+  149  dpkg
+  150  apt search nginx
+  151  wget https://download.virtualbox.org/virtualbox/7.0.12/virtualbox-7.0_7.0.12-159484~Ubuntu~jammy_amd64.deb
+  152  ls /etc/apt/
+  153  dpkg /home/danil/Downloads/virtualbox-7.0_7.0.12-159484~Ubuntu~jammy_amd64.deb
+  154  dpkg -i /home/danil/Downloads/virtualbox-7.0_7.0.12-159484~Ubuntu~jammy_amd64.deb
+  155  apt -f install
+  156  dprk -r virtualbox-7.0_7.0.12-159484~Ubuntu~jammy_amd64.deb
+  157  dpkg -r virtualbox-7.0
+  158  history
