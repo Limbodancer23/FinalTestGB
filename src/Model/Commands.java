@@ -6,5 +6,4 @@ public enum Commands {
     VOICE,
     GALLOP,
     NULL
-    
 }
